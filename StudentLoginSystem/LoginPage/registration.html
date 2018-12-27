@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/registrationstyle.css">
+    <script src="js/registrationScript.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="page-title">
+        <h2>Registration Form</h2>
+      </div>
+    </header>
+
+    <article class="register-form">
+      <div class="wrapper">
+
+        <form class="form" action="RegistrationForm.php" method="post" >
+          <h2>Register Form:</h2>
+          <input type="text" id="username" name="username" placeholder="User Name" required pattern="^[A-Za-z\s]+" title="Enter Only Alphabets.">
+		      <input type="text" id="branch" name="branch"  placeholder="Branch" required pattern="^[A-Za-z\s]+" title="Enter Only Alphabets.">
+		      <input type="email" id="email" name="email"  placeholder="Email" required>
+		      <input type="text" id="enrol" name="enrol"  placeholder="Enrol ID" required>
+          <p>Please enter the password </p>
+          <input type="password" id="password" name="password" placeholder="Password" required>
+          <p>Minimum of 5 characters</p>
+          <input type="password"  id="confirmpassword" name="confirmation" placeholder="Confirm Password" required>
+          <input type="radio" id="male" name="gender" value="Male" required> <p id="male" >Male</p>
+          <input type="radio" id="female" name="gender" value="Female" required> <p id="female">Female</p>
+          <button type="submit" name="submit2" onclick="return myFun()" >Submit</button>
+        </form>
+
+      </div>
+    </article>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,82 @@
+body{
+  background: #3C3B3F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container{
+  /* border: 1px solid red; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+}
+
+.wrapper{
+  border: 1px solid white;
+  height: 99vh;
+  width: 50%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: white;
+}
+
+.form{
+/* border: 1px solid yellow; */
+width: 100%;
+text-align: center;
+
+
+}
+
+h1{
+  font-style: normal;
+  font-weight: bold;
+}
+
+input[type=text]{
+  width: 50%;
+  border-radius: 7px;
+  padding: 5px;
+  margin: 0 2% 2% 2%;
+}
+
+#add{
+  width: 50%;
+  padding: 6px;
+  border-radius: 7px;
+  font-size: 15px;
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+  margin-bottom: 2%;
+  cursor: all-scroll;
+}
+
+#remove{
+  width: 50%;
+  padding: 6px;
+  border-radius: 7px;
+  font-size: 15px;
+  background-color: blue;
+  border: 1px solid blue;
+  color: white;
+  margin-bottom: 2%;
+  cursor: all-scroll;
+}
+
+#list-item li{
+  border: 1px solid black;
+  background-color: white;
+  padding: 6px;
+  font-size: 15px;
+  width: 48%;
+  margin-left: 25%;
+  border-radius: 7px;
+  margin-bottom: 2%;
+  text-align: left;
+  list-style-type: none;
+  font-size: 15px;
+}
